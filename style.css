@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Merriweather", serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+p{
+    font-family:  "Inter", sans-serif;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.redt{
+    color: #ff0000;
+}
+.discription{
+    color: #696565c2;
+    padding: 10px 0;
+}
+
+.main{
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.banner{
+    background-color: red;
+    width: 100%;
+    height: 53vh;
+    background-image: url(images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-block: 30px;
+}
+.shade{
+    height: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.shade h3{
+    font-weight: 400;
+    padding-block: 10px;
+}
+
+.off-section{
+    padding-block: 35px;
+}
+.off-section .p1{
+    color: red;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.off-section .p2{
+    color: red;
+    font-weight: 700;
+    padding: 20px;
+}
+.off-section .p3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.off-section img{
+    width: 50%;
+    padding: 20px;
+}
+
+.midnt-section{
+    background: url(images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+    /* height: ; */
+}
+.shadelr{
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+    padding: 20px 90px;
+    border-radius: 20px;
+}
+.left{
+    color: white;
+    width: 60%;
+}
+.left h1{
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+}
+.left p{
+    color: #ccccccc7;
+    padding-block: 20px;
+}
+.left button{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.left button:hover{
+    background-color: #ff0000;
+    box-shadow: 0px 0px 5px 1px #ff0000;
+}
+.right{
+    width: 40%;
+}
+.right img{
+    width: 100%;
+}
+
+.join-section{
+    background: linear-gradient(#ff000028, #ff000000);
+    padding-block: 100px;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+.join-section p{
+    font-weight: 700;
+    font-size: 1.35rem;
+    padding-bottom: 10px;
+}
+.join-section button{
+    margin: 30px;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.join-section button:hover{
+    background-color: transparent;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.coming-section{
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.coming-l{
+    width: 30%;
+}
+.coming-l p{
+    font-weight: 700;
+}
+.coming-l h2{
+    font-weight: 900;
+    font-size: 2rem;
+    padding-block: 10px;
+}
+.coming-l span{
+    color: #696565c2;
+}
+.coming-m{
+    width: 32%;
+}
+.coming-m img{
+    padding: 25px;
+    width: 100%;
+    border-radius: 50%;
+    border: 1rem solid #ff0000;
+}
+.coming-r{
+    width: 20%;
+    color: #696565c2;
+}
+.coming-r .redt{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 80px;
+}
+.coming-r p{
+    padding-bottom: 15px;
+}
+
+.gifts-section{
+    width: 100%;
+    padding: 50px 0;
+}
+.gifts-section p{
+    font-weight: 700;
+}
+.gifts-section h2{
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+.gifts-section .discription{
+    font-weight: 500;
+    width: 60%;
+}
+.gifts{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+.gifts .relative{
+    width: 31%;
+    position: relative;
+}
+.gifts .relative img{
+    width: 100%;
+    height: 100%;
+}
+.gifts .relative .absolute{
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 99%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-51%);
+    border-radius: 14px;
+    display: none;
+}
+.gifts .relative:hover .absolute{
+    display: flex;
+}
+.gifts .relative .absolute a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.gifts .relative .absolute a:hover{
+    border-bottom: 2px solid white;
+}
+
+.subscribe-section{
+    padding-block: 50px;
+    background-color: #ff000010;
+    text-align: center;
+    border-radius: 20px;
+}
+.subscribe-section img{
+    width: 10%;
+    padding-block: 20px;
+}
+.subscribe{
+    padding-block: 50px;
+    width: 40%;
+}
+.subscribe .input{
+    width: 100%;
+    border: 1px solid white;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 25px 0 0 25px;
+}
+.input:hover{
+    border: 1px solid #ff0000;
+}
+.input:focus{
+    border: 1px solid #ff0000;
+}
+.subscribe button{
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 34px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+.subscribe button:active{
+    background-color: #d60000;
+}
+
+footer{
+    background-color: #070211;
+    color: white;
+    line-height: 30px;
+    margin-top: 50px;
+    padding-block: 80px;
+}
+.first{
+    justify-content: space-between;
+}
+.first .div2 div{
+    padding-right: 50px;
+    gap: 10px;
+}
+.second{
+    justify-content: center;
+    gap: 15px;
+    padding-block: 80px;
+}
+.third{
+    justify-content: space-between;
+}
